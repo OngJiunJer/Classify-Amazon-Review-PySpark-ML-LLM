@@ -85,14 +85,11 @@ Conclucion:
 ## Limitations:
 - Dataset is heavily skewed toward 5-star reviews, making middle ratings harder to predict.
 - LLMs can misclassify low-confidence or nuanced reviews.
-- ML only uses review text, ignoring helpful metadata.
 - LLMs are computationally expensive for large datasets.
 
 ## Future Improvements:
 - Handle class imbalance with SMOTE or weighted loss.
-- Add metadata features like review length, time, or product info.
 - Combine ML + LLM predictions in an ensemble.
 - Test other transformer models or fine-tune hyperparameters.
-- Make the pipeline real-time deployable for new reviews.
 
 

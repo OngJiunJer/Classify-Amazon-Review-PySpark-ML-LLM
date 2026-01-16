@@ -82,7 +82,7 @@ Conclucion:
   - Flan-T5 LLM: Excellent for extreme sentiment detection (1 & 5 stars). However, realy bad on predict on mid-range scores.
   - BERT LLM: Balanced performance across all ratings, improves low-confidence ML predictions. However, not able to maintain high accuracy prediction on score 1 and 5.
 
-## cLimitations:
+## Limitations:
 - Dataset is heavily skewed toward 5-star reviews, making middle ratings harder to predict.
 - LLMs can misclassify low-confidence or nuanced reviews.
 - ML only uses review text, ignoring helpful metadata.

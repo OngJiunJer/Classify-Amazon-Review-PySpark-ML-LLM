@@ -13,6 +13,7 @@ The workflow first uses TF-IDF + Logistic Regression to classify reviews, then r
 
 ## Step1_Read_CSV
 - Reads the Reviews.csv dataset
+- The dataset is gained from the kaggle platform "https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews" 
 
 ## Step2_Preprocessing.py
 - Remove nulls & duplicates
